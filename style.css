@@ -1,0 +1,134 @@
+ header{
+    background-color: rgb(172, 103, 236);
+    height: 20px;
+    padding: 20px 0;
+    
+}
+nav li{
+    display:inline;
+    margin: 0 0 0 10px;
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(112, 9, 153, 0.829);
+    font-size: 20px;
+    font-weight: bold;  
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav{
+    position: center;
+    top: 5px;
+    right: 0 ;
+}
+.servicos {
+    width: 940px;
+     margin: 0 auto;
+     padding: 50px 0;
+}
+.servicos li{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30 px 20 px;
+    box-sizing: border-box;
+    border: 2px solid rgb(43, 4, 54);
+}
+.servicos li:hover{
+    color: rgb(112, 9, 153, 0.829)0.8;
+    border-color:rgb(60, 11, 80);
+
+}
+.servicos li:active{
+   background-color: rgb(112, 9, 153, 0.829); 
+}
+.servicos h2 {
+    font-size: 300 px;
+    font-weight: bold;
+}
+
+.servicos img{
+    width: 200px;
+}
+
+.descricao {
+    font-size: 18px;
+}
+.preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+footer{
+    text-align: center;
+    background-color:rgb(172, 103, 236);
+    padding: 40px 0;
+}
+footer img{
+    width: 50px;
+    margin-top: 20px;
+}
+footer p{
+    color: white;
+}
+main{
+    width: 940px;
+    margin:0 auto;
+}
+form{
+    margin: 40px 0;
+}
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+form input{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+form label, form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    
+}
+.enviar{
+    width: 40%;
+    padding: 15xp;
+    background-color: rgb(170, 79, 255);
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s all;
+}
+.enviar:hover{
+    background-color: blueviolet;
+    transform: scale(1.2);
+    animation: repetir 2s linear infinite;
+    
+}
+@keyframes repetir{
+    0%{
+       transform: scale(1.0);
+    }
+    50%{
+        transform: scale(1.2);
+        background-color: rgb(126, 51, 197);
+    }
+    100%{
+         transform: scale(1.5);
+         background-color: rgb(54, 11, 95);
+    }
+}
