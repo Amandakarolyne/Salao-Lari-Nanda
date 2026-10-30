@@ -1,1 +1,1 @@
-# Sal-o-Lari-Nanda
+# Salao-Lari-Nanda
